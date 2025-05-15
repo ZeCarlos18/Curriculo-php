@@ -1,0 +1,111 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    background-color: #93c693;
+    color: #333;
+} 
+
+header {
+    background-color: #5cb85c;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.perfil{
+    height: 200px;
+}
+
+.perfil img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.contato{
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.9);
+    border-radius: 20%;
+    height: auto;
+    width: 14%;
+    padding: 30px;
+    text-align: center;
+    margin-left: auto;
+    margin-top: -200px;
+}
+
+.contato h3{
+    color: #ddd;
+}
+
+section{
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3, h4{
+    color: #333;
+    margin-top: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+li:last-child{
+    border-bottom: none;
+}
+
+.periodo{
+    font-style: italic;
+    color: #777;
+}
+
+.barra-nivel{
+    background-color: #ddd;
+    height: 15px;
+    border-radius: 5px;
+    margin-top: 5px;
+    display: flex;
+}
+
+.barra-nivel span{
+    background-color: #8a8a8a;
+    height: 100%;
+    border-radius: 5px;
+    width: 10%;
+    margin-right: 2px;
+}
+
+.barra-nivel span.hobby{
+    background-color: #008000;
+}
+
+.barra-nivel span.habilidade{
+    background-color: #008000;
+}
+
+.barra-nivel span.idioma{
+    background-color: #008000;
+}
+footer{
+    text-align: center;
+    color: #777;
+    font-size: 0.9em;
+    margin-top: 30px;
+}   
