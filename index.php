@@ -169,9 +169,9 @@
             <h3>Idiomas</h3>
             <?php
                 $idiomas = [
-                        "ingles" => 6,
-                        "portugues" => 10,
-                        "espanhol" => 7
+                        "Inglês" => 6,
+                        "Português" => 10,
+                        "Espanhol" => 5
                     ];
             ?>
             <?php if (!empty($idiomas)): ?>
